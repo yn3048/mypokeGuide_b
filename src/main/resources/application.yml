@@ -20,9 +20,9 @@ spring:
         name: pokeGuide
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: Abcd1234!
-        url: jdbc:mysql://3.36.119.194/pokeguide
-        username: poke
+        password: dbcjs0604!
+        url: jdbc:mysql://15.165.198.9/pokeguide
+        username: root
 
     data:
         redis:
@@ -45,8 +45,8 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
-        username: oharam0413@gmail.com
-        password: xwov wdxm kafb vhun
+        username: dpsk08270@gmail.com
+        password: ltlb tzjh gdcd sdyq
         properties:
             mail:
                 smtp:
@@ -70,6 +70,6 @@ file:
 
 front:
     url: 'http://localhost:3000' # 개발용
-    #url: 'http://15.165.24.202' # 배포용
+    #url: 'http://15.165.198.9' # 배포용
 
 
