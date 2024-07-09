@@ -20,9 +20,9 @@ spring:
         name: pokeGuide
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: dbcjs0604!
-        url: jdbc:mysql://15.165.198.9/pokeguide
-        username: root
+        password: Dbcjs0604!
+        url: jdbc:mysql://13.125.184.61/pokeguide
+        username: mypoke
 
     data:
         redis:
@@ -69,7 +69,7 @@ file:
         path: uploads/
 
 front:
-    url: 'http://localhost:3000' # 개발용
-    #url: 'http://15.165.198.9' # 배포용
+    #url: 'http://localhost:3000' # 개발용
+    url: 'http://13.125.184.61' # 배포용
 
 
